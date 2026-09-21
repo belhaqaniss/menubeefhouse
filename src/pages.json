@@ -1,0 +1,960 @@
+{
+  "/brunch-marseille-vieux-port": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Brunch"
+        },
+        {
+          "tag": "h1",
+          "text": "Brunch à Marseille, face au Vieux-Port"
+        },
+        {
+          "tag": "p",
+          "text": "Le week-end, on sert le brunch en terrasse avec vue sur le port."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/img_8492-A32YGke2UkTdubQQ.jpeg"
+      ]
+    },
+    {
+      "id": "contact",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Notre brunch"
+        },
+        {
+          "tag": "p",
+          "text": "On dresse le brunch le week-end, du matin jusqu'en début d'après-midi. Sucré, salé, chaud, froid : il y a de quoi composer selon l'envie du moment, que vous ayez faim d'un vrai repas ou juste envie de picorer autour d'un café."
+        },
+        {
+          "tag": "p",
+          "text": "C'est le genre de moment qui s'étire. On ne presse personne."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "zNSAEC",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "zyrPbN",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au cœur du Vieux-Port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/carte-restaurant-viande-marseille": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "NOTRE carte"
+        },
+        {
+          "tag": "h1",
+          "text": "La carte du Beef House"
+        },
+        {
+          "tag": "p",
+          "text": "Beef House vous propose une carte de viandes grillées au feu de bois d'exception, sélectionnées avec soin et cuisinées au feu de bois. Steakhouse premium au Vieux-Port de Marseille, ouvert 7j/7."
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1608877907149-a206d75ba011?auto=format&fit=crop&w=1920"
+      ]
+    },
+    {
+      "id": "carte",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "La carte"
+        },
+        {
+          "tag": "p",
+          "text": "Notre Menu"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au cœur du Vieux-Port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/grillade-au-feu-de-bois-marseille": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Grillades au feu de bois"
+        },
+        {
+          "tag": "h1",
+          "text": "Grillades au feu de bois à Marseille"
+        },
+        {
+          "tag": "p",
+          "text": "Entrecôte · Tomahawk · Ribeye · Côte de Bœuf · Faux-Filet"
+        },
+        {
+          "tag": "p",
+          "text": "Nos viandes cuites à la braise, au Vieux-Port de Marseille."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/grillades-au-feu-de-bois-a-marseille-U49VBGGMN9exMm7p.png"
+      ]
+    },
+    {
+      "id": "histoire",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Ce qui passe sur la braise"
+        },
+        {
+          "tag": "p",
+          "text": "Entrecôte, côte de bœuf, tomahawk, faux-filet, travers de bœuf fumés pendant des heures. Chaque pièce est choisie pour tenir la cuisson au feu et en ressortir meilleure. On adapte la cuisson à votre goût, du bleu au bien cuit."
+        },
+        {
+          "tag": "p",
+          "text": "Toute la viande est halal. Vous commandez ce que vous voulez sans avoir à demander."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=502,fit=crop/pbFrgv1DX9gDCrut/grillades-au-feu-de-bois-a-marseille-ECZrXhAz3RmxxyFZ.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=500,fit=crop/pbFrgv1DX9gDCrut/grillades-au-feu-de-bois-a-marseille-ECZrXhAz3RmxxyFZ.png"
+      ]
+    },
+    {
+      "id": "z48Ap_",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Venir goûter"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "On est au 33 Quai des Belges, sur le Vieux-Port, ouverts 7 jours sur 7 midi et soir. Métro Vieux-Port, parking à proximité."
+        },
+        {
+          "tag": "p",
+          "text": "Le week-end et le soir, pensez à réserver."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/pbFrgv1DX9gDCrut/grillades-au-feu-de-bois-a-marseille-NCYmri77yxjz6fAi.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/grillades-au-feu-de-bois-a-marseille-NCYmri77yxjz6fAi.png"
+      ]
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/horaires-restaurant-vieux-port-marseille": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "HORAIRES ET INFOS"
+        },
+        {
+          "tag": "h1",
+          "text": "Horaires, accès et informations pratiques"
+        },
+        {
+          "tag": "p",
+          "text": "Tout ce qu'il faut savoir avant de venir au Beef House, restaurant sur le Vieux-Port de Marseille : quand on est ouverts, comment nous trouver, et comment réserver."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/dsc06213-SSnZNnHYxIOBgyn3.jpeg"
+      ]
+    },
+    {
+      "id": "contact",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Nos horaires d'ouverture"
+        },
+        {
+          "tag": "p",
+          "text": "Les soirs de week-end, la salle se remplit vite. Si vous tenez à une table en terrasse ou que vous venez à plusieurs, mieux vaut réserver à l'avance."
+        },
+        {
+          "tag": "p",
+          "text": "On est ouverts 7 jours sur 7, midi et soir. Que vous passiez pour un déjeuner rapide en semaine, un brunch le week-end ou un dîner face au port, il y a toujours une table qui vous attend. La cuisine tourne du midi jusque tard le soir, donc pas besoin de se presser."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=829,fit=crop/pbFrgv1DX9gDCrut/dsc06208-b5s7c3NN5BaSZlqp.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/pbFrgv1DX9gDCrut/dsc06208-b5s7c3NN5BaSZlqp.jpeg"
+      ]
+    },
+    {
+      "id": "zC0Mqn",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Le Beef House est au 33 Quai des Belges, sur le Vieux-Port de Marseille. On est juste en face de l'eau, entre les bateaux et le marché aux poissons. Difficile de nous rater."
+        },
+        {
+          "tag": "p",
+          "text": "Si vous venez en métro, la station Vieux-Port est à deux minutes à pied. En voiture, plusieurs parkings sont accessibles autour du port. Comme beaucoup de nos clients cherchent un restaurant sur le Vieux-Port de Marseille facile d'accès, on a la chance d'être pile au bon endroit : au cœur de l'animation, avec la vue en prime."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "z61pxe",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Nous contacter"
+        },
+        {
+          "tag": "p",
+          "text": "Toute notre viande est halal, donc vous commandez ce que vous voulez sans avoir à demander. On a une terrasse qui donne sur le port, parfaite dès qu'il fait beau. On accueille aussi bien les couples que les familles et les grandes tablées entre amis."
+        },
+        {
+          "tag": "p",
+          "text": "Pour une privatisation ou un événement, contactez-nous directement, on s'occupe du reste."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Le plus simple, c'est de réserver en ligne. Ça prend quelques secondes et vous êtes sûr d'avoir votre place, surtout le vendredi et le samedi soir où ça part vite. Vous pouvez aussi appeler directement, on répond avec plaisir."
+        },
+        {
+          "tag": "p",
+          "text": "Pour les groupes, les anniversaires ou les grandes tablées, prévenez-nous à l'avance qu'on vous installe comme il faut."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Steakhouse Premium • Vieux-Port • Restaurant Viande Marseille"
+        },
+        {
+          "tag": "h1",
+          "text": "L'Excellence de la Viande au Cœur de Marseille chez Beef House"
+        },
+        {
+          "tag": "p",
+          "text": "Steakhouse Premium · Vieux-Port · Restaurant Viande Marseille · Ouvert 7J/7"
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/cvqcbe-FOrqRSBZXNr4BlH4.png"
+      ]
+    },
+    {
+      "id": "zcLMNq",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "histoire",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "La passion de la viande d'exception"
+        },
+        {
+          "tag": "p",
+          "text": "Au cœur du Vieux-Port de Marseille, Beef House est le steakhouse des amateurs de viande grillée. Entrecôte, Tomahawk, Ribeye, Faux-Filet : chaque pièce est choisie avec soin et grillée au feu de bois par nos cuisiniers."
+        },
+        {
+          "tag": "p",
+          "text": "Notre spécialité, c'est justement ça : la cuisson au feu de bois. La flamme saisit la viande, la braise la cuit, et le bois lui donne ce goût fumé qu'on ne trouve nulle part ailleurs. C'est ce qui fait qu'on revient chez nous."
+        },
+        {
+          "tag": "p",
+          "text": "On est au 33 Quai des Belges, face au Vieux-Port de Marseille, dans un cadre avec vue sur l'eau. Restaurant viande Marseille ouvert 7 jours sur 7, midi et soir."
+        },
+        {
+          "tag": "p",
+          "text": "Notre Histoire"
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/pbFrgv1DX9gDCrut/dsc06280-5B33eZoCtZqxhmnY.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06280-5B33eZoCtZqxhmnY.jpeg"
+      ]
+    },
+    {
+      "id": "specialites",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Les pièces de la maison"
+        },
+        {
+          "tag": "p",
+          "text": "Nos Spécialités"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "zVXJcJ",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "L'exigence dans chaque détail"
+        },
+        {
+          "tag": "p",
+          "text": "Pourquoi Nous Choisir"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "galerie",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Une expérience visuelle"
+        },
+        {
+          "tag": "p",
+          "text": "Galerie"
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06248-6HWkSvkshgqx67FU.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06323-JTgZxxgcnrk20c01.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc07651-nKrmcMipSjnk3dFi.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/x9tw9o-dUb1ofCyX5XP9m8l.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/img_8521-bO4zeSRxrub5xoAV.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/pymgpj-F4z9fzjmsr1FwdcT.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06316-X59s0VyKttJYbBU7.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06213-SSnZNnHYxIOBgyn3.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc07613-tFZFDZ6ZgD4MJFgp.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/rpowk7-aXY8Ai1xMzNLtZRS.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/img_7870-aoXFq5CJBmYolV9o.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc07598-iG8lbFIYV21bQkri.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06248-6HWkSvkshgqx67FU.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/x9tw9o-dUb1ofCyX5XP9m8l.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06316-X59s0VyKttJYbBU7.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/rpowk7-aXY8Ai1xMzNLtZRS.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06323-JTgZxxgcnrk20c01.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/img_8521-bO4zeSRxrub5xoAV.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc06213-SSnZNnHYxIOBgyn3.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/img_7870-aoXFq5CJBmYolV9o.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc07651-nKrmcMipSjnk3dFi.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/pymgpj-F4z9fzjmsr1FwdcT.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc07613-tFZFDZ6ZgD4MJFgp.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/dsc07598-iG8lbFIYV21bQkri.jpeg"
+      ]
+    },
+    {
+      "id": "zhBc9Z",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au Vieux-Port de Marseille. Steakhouse, viande grillées au feu de bois, vue sur le port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "carte",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "La carte"
+        },
+        {
+          "tag": "p",
+          "text": "Notre Menu"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "avis",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Ils nous ont fait confiance"
+        },
+        {
+          "tag": "p",
+          "text": "Avis Clients"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "contact",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Nous Trouver — Beef House Vieux-Port"
+        },
+        {
+          "tag": "p",
+          "text": "Contact & Localisation"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/reservation-steakhouse-marseille": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h1",
+          "text": "Nous contacter"
+        },
+        {
+          "tag": "p",
+          "text": "Restaurant viande Marseille · Entrecôte, Tomahawk, Ribeye · Cuisson feu de bois · Vue sur le Vieux-Port"
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/dsc06213-SSnZNnHYxIOBgyn3.jpeg"
+      ]
+    },
+    {
+      "id": "contact",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Nous contacter"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au cœur du Vieux-Port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/restaurant-halal-marseille": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Halal"
+        },
+        {
+          "tag": "h1",
+          "text": "Restaurant Halal au Vieux-Port de Marseille"
+        },
+        {
+          "tag": "p",
+          "text": "Toute notre viande est halal, grillée au feu de bois, face au Vieux-Port."
+        },
+        {
+          "tag": "p",
+          "text": "Viandes grillée premium ·  Cuisson au feu de bois"
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/pymgpj-F4z9fzjmsr1FwdcT.png"
+      ]
+    },
+    {
+      "id": "histoire",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Un steakhouse halal face au port"
+        },
+        {
+          "tag": "p",
+          "text": "Chez Beef House, toute la viande est halal. Pas une partie de la carte, pas seulement sur demande : tout. Vous pouvez commander n'importe quel plat sans avoir à poser la question. C'est le cas depuis le premier jour et ça ne changera pas."
+        },
+        {
+          "tag": "p",
+          "text": "On est installés sur le Vieux-Port, au 33 Quai des Belges. La salle donne sur l'eau et la terrasse aussi. Beaucoup de nos clients viennent pour la viande et repartent en parlant de la vue."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-CPyVoG6qpqaUbSA6.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-CPyVoG6qpqaUbSA6.png"
+      ]
+    },
+    {
+      "id": "z8tADV",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Ce qu'on sert"
+        },
+        {
+          "tag": "p",
+          "text": "Notre truc, c'est la viande grillée au feu de bois. Entrecôte, côte de bœuf, tomahawk, ribeye, faux-filet. Les pièces sont choisies avec soin et cuites comme vous les aimez, saignantes à bien cuites. La braise donne un goût qu'on n'obtient pas autrement, et c'est pour ça qu'on y tient."
+        },
+        {
+          "tag": "p",
+          "text": "À côté des viandes, il y a les accompagnements maison, les entrées et les desserts. Et pour ceux qui viennent le week-end, on fait aussi un brunch."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-2WrQ156xnYwwqbF8.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-2WrQ156xnYwwqbF8.png"
+      ]
+    },
+    {
+      "id": "zgD6tB",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Pourquoi les gens reviennent"
+        },
+        {
+          "tag": "p",
+          "text": "La plupart de nos avis parlent de trois choses : la qualité de la viande, l'accueil, et la vue sur le port. On essaie de tenir les trois à chaque service. Ça marche plutôt bien, il suffit de lire ce que les clients écrivent sur Google."
+        },
+        {
+          "tag": "p",
+          "text": "Manger halal sans faire de compromis sur la qualité, c'est ce qu'on propose. Une bonne pièce de bœuf, bien cuite, dans un cadre agréable, sans avoir à vérifier quoi que ce soit."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-wlZD1Wvku80eOTl4.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-wlZD1Wvku80eOTl4.png"
+      ]
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Venir nous voir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "On est ouverts 7 jours sur 7, midi et soir. Le Vieux-Port est facile d'accès en métro (station Vieux-Port) et il y a du parking à proximité. Le week-end et les soirs de forte affluence, mieux vaut réserver."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/restaurant-vue-mer-marseille": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Vue Mer & Terrasse"
+        },
+        {
+          "tag": "h1",
+          "text": "Restaurant avec vue mer à Marseille"
+        },
+        {
+          "tag": "p",
+          "text": "Notre terrasse donne sur le Vieux-Port. Vous mangez face à l'eau et aux bateaux."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/restaurant-halal-marseille-CPyVoG6qpqaUbSA6.png"
+      ]
+    },
+    {
+      "id": "histoire",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "La vue depuis nos tables"
+        },
+        {
+          "tag": "p",
+          "text": "On est au 33 Quai des Belges, pile en face du Vieux-Port. Depuis la salle comme depuis la terrasse, vous avez l'eau sous les yeux, les bateaux qui rentrent, et la lumière qui change au fil de la journée."
+        },
+        {
+          "tag": "p",
+          "text": "Le soir, quand le soleil descend sur le port, c'est le meilleur moment. Beaucoup de clients viennent pour la viande et repartent en parlant de la vue."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/pbFrgv1DX9gDCrut/pymgpj-F4z9fzjmsr1FwdcT.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/pymgpj-F4z9fzjmsr1FwdcT.png"
+      ]
+    },
+    {
+      "id": "z_tNqh",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Notre terrasse"
+        },
+        {
+          "tag": "p",
+          "text": "La terrasse est ouverte dès qu'il fait beau, ce qui à Marseille arrive souvent. C'est là que les tables partent le plus vite, surtout le week-end et en soirée. Si vous y tenez, précisez-le en réservant."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/pbFrgv1DX9gDCrut/terrasse-restaurant-vieux-port-fQh9MER9CNv8vThi.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/terrasse-restaurant-vieux-port-fQh9MER9CNv8vThi.png"
+      ]
+    },
+    {
+      "id": "contact",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au cœur du Vieux-Port de Marseille. Steakhouse premium, viande grillée, vue sur le port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/steakhouse-marseille-histoire": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Notre Histoire"
+        },
+        {
+          "tag": "h1",
+          "text": "L'Histoire de Beef House : Steakhouse Marseille Vieux-Port"
+        },
+        {
+          "tag": "p",
+          "text": "Beef House est né d'une passion commune pour la viande d'exception et le Vieux-Port de Marseille. Fondé par des amoureux de la gastronomie carnée, notre steakhouse s'est imposé comme la référence du restaurant viande Marseille au cœur de la cité phocéenne."
+        },
+        {
+          "tag": "p",
+          "text": "Tout a commencé avec une obsession : proposer la meilleure viande grillées au feu de bois de Marseille dans un cadre exceptionnel face au Vieux-Port. Chaque détail a été pensé pour offrir une expérience steakhouse unique — de la sélection des pièces à la maîtrise du feu de bois."
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1690983329845-638ec321647d?auto=format&fit=crop&w=1920"
+      ]
+    },
+    {
+      "id": "histoire",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Notre Philosophie : La Viande Grillée au Feu de Bois"
+        },
+        {
+          "tag": "p",
+          "text": "Chez Beef House, tout commence par la sélection. Nos viandes sont rigoureusement choisies parmi les meilleures pièces disponibles : Entrecôte, Tomahawk, Ribeye, Faux-Filet et grillées selon des cuissons précises pour développer tendreté et saveur."
+        },
+        {
+          "tag": "p",
+          "text": "Notre steakhouse Marseille repose sur trois piliers fondamentaux :"
+        },
+        {
+          "tag": "p",
+          "text": "La sélection : seules les meilleures pièces de bœuf intègrent notre carte. Chaque viande est inspectée, sélectionnée et travaillée avec soin par notre équipe."
+        },
+        {
+          "tag": "p",
+          "text": "Le feu de bois : notre technique de cuisson ancestrale au feu de bois est la signature de Beef House. Cette méthode confère à chaque pièce des arômes fumés incomparables et une caramélisation parfaite."
+        },
+        {
+          "tag": "p",
+          "text": "L'expérience : au 33 Quai des Belges, face au Vieux-Port de Marseille, notre restaurant vue mer offre un cadre unique pour sublimer chaque dégustation."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/pbFrgv1DX9gDCrut/gljbkm-OLnh2y0U3h9eP3yA.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/gljbkm-OLnh2y0U3h9eP3yA.png"
+      ]
+    },
+    {
+      "id": "contact",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "zUQEEh",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Au Cœur du Vieux-Port de Marseille"
+        },
+        {
+          "tag": "p",
+          "text": "NOUS TROUVER"
+        },
+        {
+          "tag": "p",
+          "text": "Installé au 33 Quai des Belges, Beef House bénéficie de l'un des emplacements les plus emblématiques de Marseille. Face au Vieux-Port, notre steakhouse offre une vue imprenable sur le port historique de la cité phocéenne."
+        },
+        {
+          "tag": "p",
+          "text": "Notre restaurant viande Marseille est accessible facilement — à deux minutes à pied de la station de métro Vieux-Port, au cœur du 1er arrondissement de Marseille. Que vous soyez marseillais ou touriste de passage, Beef House vous accueille 7 jours sur 7 pour le déjeuner et le dîner."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au Vieux-Port de Marseille. Steakhouse, viande grillées au feu de bois, vue sur le port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ],
+  "/steakhouse-vieux-port-marseille-specialites": [
+    {
+      "id": "hero",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "Nos spécialités"
+        },
+        {
+          "tag": "h1",
+          "text": "Nos Spécialités — Steakhouse Vieux Port Marseille"
+        },
+        {
+          "tag": "p",
+          "text": "Entrecôte · Tomahawk · Ribeye · Côte de Bœuf · Faux-Filet"
+        },
+        {
+          "tag": "p",
+          "text": "Viandes grillées au feu de bois premium · Cuisson au feu de bois · 33 Quai des Belges"
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/pbFrgv1DX9gDCrut/x9tw9o-dUb1ofCyX5XP9m8l.png"
+      ]
+    },
+    {
+      "id": "histoire",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "L'Art de la Viande grillées au feu de bois"
+        },
+        {
+          "tag": "p",
+          "text": "Au Beef House, steakhouse Vieux Port Marseille, chaque pièce raconte une histoire. Nos viandes sont rigoureusement sélectionnées, grillées au feu de bois selon des processus précis, puis cuisinées au feu de bois par nos chefs. Une obsession de la qualité qui fait de Beef House le restaurant viande de référence au Vieux-Port de Marseille."
+        },
+        {
+          "tag": "p",
+          "text": "Notre processus de maturation développe la tendreté et les arômes de chaque pièce. Entrecôte, Tomahawk, Ribeye, Faux-Filet, Côte de Bœuf — chaque viande est travaillée avec soin pour vous offrir une expérience steakhouse unique face au port."
+        }
+      ],
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/pbFrgv1DX9gDCrut/gzlexu-hnWufn8Ushk4r7mn.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/pbFrgv1DX9gDCrut/gzlexu-hnWufn8Ushk4r7mn.png"
+      ]
+    },
+    {
+      "id": "zrcT3W",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Les pièces de la maison"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "contact",
+      "blocks": [],
+      "images": []
+    },
+    {
+      "id": "reservation",
+      "blocks": [
+        {
+          "tag": "h2",
+          "text": "Réservez Votre Table Ce Soir"
+        },
+        {
+          "tag": "p",
+          "text": "Réservation"
+        },
+        {
+          "tag": "p",
+          "text": "Vivez une expérience inoubliable au Vieux-Port de Marseille. Steakhouse, viande grillées au feu de bois, vue sur le port. Places limitées, réservation conseillée."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "footer",
+      "blocks": [],
+      "images": []
+    }
+  ]
+}

@@ -355,3 +355,13 @@ footer a:hover { color: var(--cream); }
 .gallery-more { text-align: center; margin-top: 44px; }
 .gallery-status { color: var(--gold); font-size: .75rem; letter-spacing: .12em; margin-bottom: 24px; }
 .gallery-more [hidden] { display: none; }
+.house-detail { border-top: 1px solid var(--line); scroll-margin-top: 190px; }
+.house-detail:last-child { border-bottom: 1px solid var(--line); }
+.house-detail summary { display: flex; justify-content: space-between; gap: 20px; padding: 28px 0; cursor: pointer; list-style: none; font: 400 1.5rem var(--serif); }
+.house-detail summary::-webkit-details-marker { display: none; }
+.house-detail summary span { color: var(--gold); transition: transform .2s; }
+.house-detail[open] summary span { transform: rotate(45deg); }
+.house-detail-body { max-width: 850px; padding: 0 0 36px; line-height: 1.9; }
+.house-detail-body h3 { margin: 24px 0 12px; font: 400 1.5rem var(--serif); }
+.house-detail-body p { margin: 12px 0; }
+@media (max-width:650px) { .house-detail { scroll-margin-top: 110px; } }

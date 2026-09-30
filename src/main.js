@@ -17,11 +17,15 @@ const routes = [
   ['Le Brunch','/brunch-marseille-vieux-port'],
   ['Contact','/reservation-steakhouse-marseille'],
 ];
-const path = location.pathname.replace(/\/$/,'') || '/';
+const path = __SINGLE_PAGE__ ? '/' : location.pathname.replace(/\/$/,'') || '/';
 const current = pages[path];
 const home = pages['/'];
 const esc = value => String(value).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const localImage = url => url.startsWith('/') ? url : '/images/'+new URL(url).pathname.split('/').pop();
+const localImage = url => {
+  const source = url.startsWith('/') ? url : '/images/'+new URL(url).pathname.split('/').pop();
+  const base = import.meta.env.BASE_URL;
+  return base !== '/' && !source.startsWith(base) ? base+source.slice(1) : source;
+};
 const photo = (url,alt,cls='') => `<img class="${cls}" src="${localImage(url)}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
 const icon = (name) => {
   const shapes = {clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',pin:'<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',phone:'<path d="M5 3h4l2 5-3 2a16 16 0 0 0 6 6l2-3 5 2v4c0 2-3 2-5 1C9 18 5 14 3 7 2 4 3 3 5 3Z"/>',star:'<path d="m12 3 3 6 6 1-4.5 4.5 1 6.5-5.5-3-5.5 3 1-6.5L3 10l6-1Z"/>',fire:'<path d="M12 2c1 5 6 6 6 12a6 6 0 0 1-12 0c0-3 2-5 3-7 0 4 3 4 3 0Z"/>',check:'<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',instagram:'<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/>',facebook:'<path d="M14 22V13h3l1-4h-4V7c0-1 0-2 2-2h2V2h-3c-4 0-5 2-5 5v2H7v4h3v9"/>',tiktok:'<path d="M14 3v12a5 5 0 1 1-5-5v4a1 1 0 1 0 1 1V3h4c0 4 3 5 6 5v4c-3 0-5-1-6-3"/>'};
@@ -43,7 +47,7 @@ const galleryImages=[...newPhotos,...[...new Set(home.find(s=>s.id==='galerie').
   .filter(url=>!uploadedNames.has(new URL(url).pathname.split('/').pop().split('-')[0].toLowerCase()))
   .map(url=>({src:localImage(url),thumb:localImage(url),alt:'Beef House — cuisine et restaurant'}))];
 let visiblePhotos=12;
-const galleryItem=(p,i)=>`<button class="gallery-item" data-photo="${i}" aria-label="Agrandir la photo ${i+1} : ${esc(p.alt)}"><img src="${p.thumb}" alt="${esc(p.alt)}" ${p.width?`width="${p.width}" height="${p.height}"`:''} loading="lazy" decoding="async"><span aria-hidden="true">＋</span></button>`;
+const galleryItem=(p,i)=>`<button class="gallery-item" data-photo="${i}" aria-label="Agrandir la photo ${i+1} : ${esc(p.alt)}"><img src="${localImage(p.thumb)}" alt="${esc(p.alt)}" ${p.width?`width="${p.width}" height="${p.height}"`:''} loading="lazy" decoding="async"><span aria-hidden="true">＋</span></button>`;
 function gallery(){return `<section class="section gallery-section" id="galerie"><div class="container">${heading('Instants de la maison','Une expérience visuelle')}<div class="gallery" id="gallery-grid">${galleryImages.slice(0,visiblePhotos).map(galleryItem).join('')}</div><div class="gallery-more"><p class="gallery-status" role="status">${visiblePhotos} photographies sur ${galleryImages.length}</p><button class="button outline" id="load-photos" aria-controls="gallery-grid">Voir plus de photos <span aria-hidden="true">＋</span></button></div></div></section>`;}
 function reservation(section){const title=section?.blocks.find(b=>b.tag==='h2')?.text||'Réservez Votre Table Ce Soir';const desc=section?.blocks.filter(b=>b.tag==='p'&&b.text.length>40).map(b=>esc(b.text)).join('<br>')||'Vivez une expérience inoubliable au Vieux-Port de Marseille. Steakhouse, viandes grillées au feu de bois, vue sur le port. Places limitées, réservation conseillée.';return `<section class="reservation section" id="reservation"><div class="container">${heading('Réservation',title)}<p>${desc}</p>${buttons()}</div></section>`;}
 function menu(){return `<section class="section menu-section" id="carte"><div class="container">${heading('Notre Menu','La carte')}${menuMarkup}<a class="button outline pdf-link" href="${PDF}" target="_blank" rel="noopener">Télécharger le Menu PDF <span aria-hidden="true">↓</span></a></div></section>`;}
@@ -60,6 +64,33 @@ function subpage(){let result=hero(current[0]);let count=0;for(const section of 
  else if([routes[0][1],routes[2][1]].includes(path))result+=contact();
  result+=reservation(current.find(s=>s.id==='reservation'));return result;}
 document.querySelector('#app').innerHTML=header()+`<main id="main">${current?(path==='/'?homepage():subpage()):`<section class="not-found container"><p class="eyebrow">404</p><h1>Cette page n’existe pas.</h1><a class="button" href="/">Retour à l’accueil</a></section>`}</main>`+footer()+`<dialog class="lightbox" aria-label="Galerie Beef House"><button class="lightbox-close" aria-label="Fermer la photo">×</button><button class="lightbox-prev" aria-label="Photo précédente">‹</button><img alt=""><button class="lightbox-next" aria-label="Photo suivante">›</button><p class="lightbox-count" aria-live="polite"></p></dialog>`;
+if (__SINGLE_PAGE__) {
+  const sectionIds = ['notre-histoire','horaires','terrasse','carte','nos-pieces','feu-de-bois','halal','brunch','contact-localisation'];
+  const targets = Object.fromEntries(routes.map(([,url],i)=>[url,'#'+sectionIds[i]]));
+  const details = routes.filter((_,i)=>![3,8].includes(i)).map(([label,url])=>{
+    const index=routes.findIndex(r=>r[1]===url);
+    const sections=pages[url].filter(s=>!['hero','footer','reservation','carte'].includes(s.id));
+    return `<details class="house-detail" id="${sectionIds[index]}"><summary>${esc(label)}<span aria-hidden="true">＋</span></summary><div class="house-detail-body">${sections.map(s=>`${s.blocks.map(b=>/^h/.test(b.tag)?`<h3>${esc(b.text)}</h3>`:`<p>${esc(b.text)}</p>`).join('')}`).join('')}</div></details>`;
+  }).join('');
+  document.querySelector('#galerie').insertAdjacentHTML('beforebegin',`<section class="section container house-details" aria-label="Découvrir la maison">${heading('La maison','Le goût du détail')}${details}</section>`);
+  document.querySelectorAll('a[href]').forEach(a=>{
+    const href=a.getAttribute('href');
+    if(href==='/') {a.setAttribute('href','#hero');a.removeAttribute('aria-current');}
+    else if(targets[href])a.setAttribute('href',targets[href]);
+    else if(href.startsWith('/images/'))a.setAttribute('href',localImage(href));
+  });
+  document.querySelectorAll('img[src^="/images/"]').forEach(img=>img.setAttribute('src',localImage(img.getAttribute('src'))));
+  const revealSection=()=>{const target=document.getElementById(location.hash.slice(1));if(target?.matches('details')){target.open=true;target.scrollIntoView({block:'start'});}};
+  window.addEventListener('hashchange',revealSection);
+  document.addEventListener('click',e=>{
+    const anchor=e.target.closest('a[href^="#"]');
+    if(!anchor)return;
+    const target=document.getElementById(anchor.hash.slice(1));if(target?.matches('details'))target.open=true;
+    document.querySelector('#navigation').classList.remove('is-open');
+    const toggle=document.querySelector('.mobile-toggle');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Ouvrir le menu');
+  });
+  revealSection();
+}
 if(current){document.title=(current[0].blocks.find(b=>b.tag==='h1')?.text||'Beef House')+' | Beef House Marseille';}
 
 const nav=document.querySelector('#navigation');const mobileToggle=document.querySelector('.mobile-toggle');
@@ -78,7 +109,7 @@ if(tabs.length){document.querySelector('.bh-tabs').setAttribute('role','tablist'
  });}
 
 const lightbox=document.querySelector('.lightbox');let photoIndex=0;let photoTrigger;
-function showPhoto(i){photoIndex=(i+galleryImages.length)%galleryImages.length;lightbox.querySelector('img').src=galleryImages[photoIndex].src;lightbox.querySelector('img').alt=galleryImages[photoIndex].alt;lightbox.querySelector('.lightbox-count').textContent=`${photoIndex+1} / ${galleryImages.length}`;}
+function showPhoto(i){photoIndex=(i+galleryImages.length)%galleryImages.length;lightbox.querySelector('img').src=localImage(galleryImages[photoIndex].src);lightbox.querySelector('img').alt=galleryImages[photoIndex].alt;lightbox.querySelector('.lightbox-count').textContent=`${photoIndex+1} / ${galleryImages.length}`;}
 document.querySelector('.gallery')?.addEventListener('click',e=>{const b=e.target.closest('[data-photo]');if(!b)return;photoTrigger=b;showPhoto(Number(b.dataset.photo));lightbox.showModal();document.body.classList.add('modal-open');});
 document.querySelector('#load-photos')?.addEventListener('click',e=>{
  const previous=visiblePhotos;visiblePhotos=Math.min(visiblePhotos+12,galleryImages.length);

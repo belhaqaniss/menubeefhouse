@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "dev": "vite --host 127.0.0.1", "build": "vite build", "preview": "vite preview --host 127.0.0.1" },
+  "scripts": { "dev": "vite --host 127.0.0.1", "build": "vite build", "build:hostinger": "vite build --mode hostinger", "build:subdomain": "vite build --mode subdomain", "preview:subdomain": "vite preview --mode subdomain --host 127.0.0.1", "preview:hostinger": "vite preview --mode hostinger --host 127.0.0.1", "preview": "vite preview --host 127.0.0.1" },
   "devDependencies": { "vite": "^7.3.0" }
 }

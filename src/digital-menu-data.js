@@ -64,6 +64,14 @@ export const categories = [
     ['Mousse au chocolat maison','Homemade chocolate mousse',9,'Mousse au chocolat intense, légère et onctueuse, éclats de chocolat croquant','Intense chocolate mousse, light and silky, crunchy chocolate shards'],
   ]},
 ];
+categories.push({
+  id:'brunch', name:['Brunch','Brunch'], short:['Brunch','Brunch'],
+  notice:['Disponible uniquement le week-end','Available on weekends only'],
+  items:[
+    ['Formule Signature','Signature set menu',19.90,'Un plat sucré ou salé + une boisson chaude (thé, espresso ou café crème) + un jus d’orange ou une citronnade.','One sweet or savoury dish + a hot drink (tea, espresso or café crème) + orange juice or lemonade.'],
+    ['Formule Premium','Premium set menu',29.90,'Un plat sucré + un plat salé + une boisson chaude au choix + un jus d’orange ou une citronnade.','One sweet dish + one savoury dish + a hot drink of your choice + orange juice or lemonade.'],
+  ],
+});
 export const extras = [
   {name:['Accompagnements','Sides'], price:5, items:[
     ['Frites maison','Homemade fries'],['Épinards à la crème','Creamed spinach'],['Purée truffée (+5 €)','Truffle mashed potatoes (+€5)'],['Légumes','Grilled vegetables'],['Purée de pommes de terre','Mashed potatoes'],['Tomates provençales','Provençal tomatoes'],['Gratin dauphinois','Potato gratin'],['Salade de jeunes pousses','Baby leaf salad'],['Riz','Rice'],

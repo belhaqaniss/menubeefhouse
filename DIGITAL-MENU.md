@@ -22,3 +22,7 @@ Les anciens composants du site de présentation sont conservés dans les sources
 ## QR code de table
 
 Une fois la publication et le domaine HTTPS vérifiés, générer le QR code vers l’adresse définitive, idéalement `https://menu.beefhouse-marseille.fr/`. Ne pas imprimer de QR code vers une adresse localhost ou un aperçu temporaire. Les changements de carte à la même adresse ne nécessitent pas de réimprimer le QR code.
+
+## Brunch
+
+La rubrique Brunch reprend les formules Signature (19,90 €) et Premium (29,90 €) du PDF « BEEF HOUSE - A4 PLI - FORMULES MISES A JOUR FR EN.pdf », en français et en anglais. Disponible uniquement le week-end, conformément à la demande du restaurant. La carte contient désormais 50 entrées, plus les 18 accompagnements et sauces. Le PDF historique lié dans le pied de page reste la carte des plats.

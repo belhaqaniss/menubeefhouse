@@ -10,7 +10,8 @@ export const categories = [
   { id:'chaudes', name:['Entrées chaudes','Hot starters'], short:['Entrées chaudes','Hot starters'], items:[
     ['Os à moelle grillé','Grilled bone marrow',12,'Fleur de sel, persil, pain toasté','Fleur de sel, parsley, toasted bread'],
     ['Camembert rôti au four','Oven-roasted camembert',18,'Jeunes pousses, miel, thym, pain grillé à l’ail des ours','Baby leaves, honey, thyme, toast with wild garlic'],
-    ['Wagyu & Sushi Rice','Wagyu & Sushi Rice',18,'Riz à sushi délicat, confit d’oignons fondant et émincé de Wagyu juste saisi','Delicate sushi rice, sweet onion confit and lightly seared Wagyu'],
+    ['Meat & Sushi Rice','Meat & Sushi Rice',18,'',''],
+    ['Wagyu & Sushi Rice','Wagyu & Sushi Rice',28,'Riz à sushi délicat, confit d’oignons fondant et émincé de Wagyu juste saisi','Delicate sushi rice, sweet onion confit and lightly seared Wagyu'],
     ['Croc Cecina','Truffle Cecina Croc',19,'Truffe, cecina, comté','Truffle, cecina, comté'],
     ['Tacos du Beef House','Beef House Tacos',18,'Bœuf savoureux, avocat fondant, sauce dynamite','Savoury beef, creamy avocado, dynamite sauce'],
     ['Cassolette de bœuf','Beef cassolette',16,'Sauce au bœuf fumé, émincé de bœuf saisi, cheddar fondant, oignons frits','Smoked beef sauce, seared beef strips, melted cheddar, fried onions'],
@@ -48,7 +49,7 @@ export const categories = [
   ]},
   { id:'wagyu', name:['Wagyu','Wagyu'], short:['Wagyu','Wagyu'], items:[
     ['Carpaccio de wagyu','Wagyu carpaccio',26,'Finement tranché, servi frais pour la finesse de sa marbrure','Finely sliced and served fresh, so you can enjoy the fineness of its marbling'],
-    ['Wagyu & Sushi Rice','Wagyu & Sushi Rice',18,'Riz à sushi délicat, confit d’oignons fondant et émincé de Wagyu juste saisi','Delicate sushi rice, sweet onion confit and lightly seared Wagyu'],
+    ['Wagyu & Sushi Rice','Wagyu & Sushi Rice',28,'Riz à sushi délicat, confit d’oignons fondant et émincé de Wagyu juste saisi','Delicate sushi rice, sweet onion confit and lightly seared Wagyu'],
     ['Tacos wagyu','Wagyu tacos',28,'Émincé de wagyu, avocat fondant, sauce dynamite','Wagyu strips, creamy avocado, dynamite sauce'],
     ['Faux-filet de wagyu 250 g','Wagyu sirloin steak 250 g',65,'Fine marbrure, saisi à la braise','Fine marbling, seared over the embers'],
     ['Entrecôte de wagyu 250 g','Wagyu ribeye steak 250 g',72,'Marbrure généreuse, cœur rosé','Generous marbling, pink centre'],
@@ -72,6 +73,53 @@ categories.push({
     ['Formule Premium','Premium set menu',29.90,'Un plat sucré + un plat salé + une boisson chaude au choix + un jus d’orange ou une citronnade.','One sweet dish + one savoury dish + a hot drink of your choice + orange juice or lemonade.'],
   ],
 });
+// Boissons : PDF bilingues A4 et A5 fournis par le restaurant.
+categories.push(
+  {id:'lattes',name:['Lattés signature','Signature lattes'],short:['Lattés','Lattes'],notice:['Chaud ou glacé · Matcha Tonic servi glacé','Hot or iced · Matcha Tonic served iced'],items:[
+    ['Matcha Latte','Matcha Latte',6.50,'',''],
+    ['Strawberry Matcha','Strawberry Matcha',7.50,'',''],
+    ['Coconut Matcha','Coconut Matcha',7.50,'',''],
+    ['Mango Matcha','Mango Matcha',7.50,'',''],
+    ['Matcha Tonic (glacé)','Matcha Tonic (iced)',7,'',''],
+    ['Ube Latte','Ube Latte',7.50,'',''],
+    ['Rose Latte','Rose Latte',6.90,'',''],
+    ['Pistachio Latte','Pistachio Latte',6.90,'',''],
+  ]},
+  {id:'boissons-chaudes',name:['Boissons chaudes','Hot drinks'],short:['Boissons chaudes','Hot drinks'],items:[
+    ['Espresso','Espresso',2.50,'',''],
+    ['Double Espresso','Double Espresso',4.50,'',''],
+    ['Café allongé','Long coffee',2.50,'',''],
+    ['Cappuccino','Cappuccino',4.50,'',''],
+    ['Café crème','Café crème',4.50,'',''],
+    ['Thé','Tea',4.50,'Noir, vert ou fruits rouges','Black, green or berry'],
+    ['Infusion','Herbal tea',4.50,'Verveine, menthe ou camomille','Verbena, mint or chamomile'],
+    ['Chocolat chaud','Hot chocolate',5,'',''],
+  ]},
+  {id:'boissons-fraiches',name:['Boissons fraîches','Cold drinks'],short:['Boissons fraîches','Cold drinks'],items:[
+    ['Pepsi / Pepsi Max','Pepsi / Pepsi Max',4.50,'',''],
+    ['Phénix Limonade','Phénix Lemonade',4.50,'',''],
+    ['Schweppes Agrumes / Tonic','Schweppes Citrus / Tonic',4.50,'',''],
+    ['Orangina','Orangina',4.50,'',''],
+    ['Oasis Tropical','Oasis Tropical',4.50,'',''],
+    ['Fuze Tea','Fuze Tea',4.50,'',''],
+    ['Citronnade maison','Homemade lemonade',7,'',''],
+    ['Jus d’orange','Orange juice',5,'',''],
+    ['Jus de pomme artisanal','Artisan apple juice',5,'',''],
+    ['Pago','Pago',4.50,'Abricot, ACE, fraise ou ananas','Apricot, ACE, strawberry or pineapple'],
+  ]},
+  {id:'mocktails',name:['Mocktails','Mocktails'],short:['Mocktails','Mocktails'],items:[
+    ['La Bonne Mère','La Bonne Mère',12,'Amaretto 0.0, ananas, vanille, citron vert','Amaretto 0.0, pineapple, vanilla, lime'],
+    ['Hibiscus Kiss','Hibiscus Kiss',9,'Fleur d’hibiscus, agrumes, menthe','Hibiscus flower, citrus, mint'],
+    ['Jardins Nocturnes','Jardins Nocturnes',9,'Gin 0.0, concombre, lavande, citron','Gin 0.0, cucumber, lavender, lemon'],
+    ['Paradis Rose','Paradis Rose',10,'Cranberry, rose, vanille, barbe à papa','Cranberry, rose, vanilla, candyfloss'],
+    ['Le Pagnol','Le Pagnol',9,'Ananas, passion, framboise, mangue','Pineapple, passion fruit, raspberry, mango'],
+    ['Ginger Glow','Ginger Glow',9,'Gingembre frais infusé','Fresh ginger infusion'],
+    ['Pink Citronnade Splash','Pink Citronnade Splash',9,'Limonade maison, grenadine','Homemade lemonade, grenadine'],
+    ['Bleu Marin','Bleu Marin',9,'Curaçao, limonade pétillante, menthe','Curaçao, sparkling lemonade, mint'],
+    ['Saint-Barth','Saint-Barth',9,'Ananas, coco, vanille','Pineapple, coconut, vanilla'],
+    ['Mojito Signature','Signature Mojito',10,'Menthe, citron vert · Classic, fraise ou passion','Mint, lime · Classic, strawberry or passion fruit'],
+  ]},
+);
 export const extras = [
   {name:['Accompagnements','Sides'], price:5, items:[
     ['Frites maison','Homemade fries'],['Épinards à la crème','Creamed spinach'],['Purée truffée (+5 €)','Truffle mashed potatoes (+€5)'],['Légumes','Grilled vegetables'],['Purée de pommes de terre','Mashed potatoes'],['Tomates provençales','Provençal tomatoes'],['Gratin dauphinois','Potato gratin'],['Salade de jeunes pousses','Baby leaf salad'],['Riz','Rice'],

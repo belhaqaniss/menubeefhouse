@@ -26,3 +26,7 @@ Une fois la publication et le domaine HTTPS vérifiés, générer le QR code ver
 ## Brunch
 
 La rubrique Brunch reprend les formules Signature (19,90 €) et Premium (29,90 €) du PDF « BEEF HOUSE - A4 PLI - FORMULES MISES A JOUR FR EN.pdf », en français et en anglais. Disponible uniquement le week-end, conformément à la demande du restaurant. La carte contient désormais 50 entrées, plus les 18 accompagnements et sauces. Le PDF historique lié dans le pied de page reste la carte des plats.
+
+## Mise à jour boissons et Sushi Rice
+
+36 boissons ajoutées en français et en anglais depuis les PDF A4 et A5 : 8 lattés signature, 8 boissons chaudes, 10 boissons fraîches et 10 mocktails. Meat & Sushi Rice est ajouté aux entrées chaudes à 18 €, sans description non fournie. Wagyu & Sushi Rice passe à 28 € dans ses deux rubriques. Total : 87 entrées et 18 accompagnements/sauces. La restriction week-end concerne uniquement les formules brunch.
